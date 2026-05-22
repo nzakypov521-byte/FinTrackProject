@@ -1,0 +1,61 @@
+.adderBlock {
+  max-width: 90%;
+  min-width: 70%;
+
+  max-height: 80%;
+  min-height: 30%;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  border-radius: 12px;
+  border: 1px solid black;
+  
+  background-color: whitesmoke;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .adderText {
+    width: 40%;
+
+    padding: 5px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: black;
+
+    color:aliceblue;
+
+  }
+
+  .adderNum {
+    width: 40%;
+
+    padding: 5px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: black;
+
+    color:aliceblue;
+  }
+
+  .adderBtn {
+    padding: 5px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: antiquewhite;
+  }
+
+  .adderBtn:hover {
+    cursor: pointer;
+  }
+}

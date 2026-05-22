@@ -1,0 +1,78 @@
+.cardBlock {
+  width: 70%;
+
+  max-height: 80%;
+  min-height: 30%;
+
+  padding: 10px 20px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid black;
+  border-radius: 12px;
+
+  background-color: antiquewhite;
+
+  .cardDate {
+    width: 15%;
+    height: 70%;
+  
+    border: 1px solid black;
+    border-radius: 12px;
+  
+    box-sizing: border-box;
+
+    background-color: aliceblue;
+  
+    padding: 10px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .cardDateYear {
+      font-size: 1.2rem;
+    }
+
+    .cardDateMonth {
+      font-size: 1.4rem;
+    }
+
+    .cardDateDay {
+      font-size: 2.2rem;
+    }    
+  }
+
+  .cardDesc {
+    width: 40%;
+    height: 80%;
+
+    background-color: whitesmoke;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding-bottom: 15px;
+  
+    border: 1px solid black;
+    border-radius: 12px;
+
+    .cardDescTitle {
+      font-size: 2rem;
+    }
+
+    .cardDescPrice {
+      font-size: 2rem;
+      color: red;
+
+    }
+  }
+}

@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body { 
+    margin: 0;
+    padding: 0 20px;
+    padding-top: 20px;
+
+    width: 100vw;
+
+    max-height: auto;
+    box-sizing: border-box;
+
+    background-color: lightgray;
+
+    min-height: 100dvh;
+}
