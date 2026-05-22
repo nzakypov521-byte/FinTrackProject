@@ -20,7 +20,7 @@
   align-items: center;
 
   .adderText {
-    width: 40%;
+    width: 30%;
 
     padding: 5px;
 
@@ -34,7 +34,7 @@
   }
 
   .adderNum {
-    width: 40%;
+    width: 10%;
 
     padding: 5px;
 
@@ -44,6 +44,19 @@
     background-color: black;
 
     color:aliceblue;
+  }
+
+  .radioTypeGroup {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .radioTypeLabel {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
   }
 
   .adderBtn {

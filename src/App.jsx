@@ -9,7 +9,8 @@ const App = () => {
       id: new Date().getTime(),
       costDate: new Date(data.date),
       costDesc: data.desc,
-      costPrice: data.price
+      costPrice: data.price,
+      type: data.type
     }
 
     const updatedCosts = [newCost, ...costs];
@@ -42,7 +43,7 @@ const App = () => {
       <div className={styles.costList} id="costList">{
         costs.map((item) => {
           return (
-            <CostItem costDate={item.costDate} costDesc={item.costDesc} costPrice={item.costPrice} key={item.id}></CostItem>
+            <CostItem costDate={item.costDate} costDesc={item.costDesc} costPrice={item.costPrice} key={item.id} type={item.type}></CostItem>
           )
         })
         }

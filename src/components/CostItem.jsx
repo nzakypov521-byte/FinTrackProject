@@ -10,6 +10,8 @@ function CostItem(props) {
   const costDesc = props.costDesc
   const costPrice = props.costPrice
 
+  const type = props.type
+
   return (
     <div className={styles.cardBlock}>
       <div className={styles.cardDate}>
@@ -21,7 +23,9 @@ function CostItem(props) {
       </div>
       <div className={styles.cardDesc}>
         <h2 className={styles.cardDescTitle}>{costDesc}</h2>
-        <div className={styles.cardDescPrice}>{costPrice}$</div>
+        {type === 'rashod' ? (<div className={styles.cardDescPriceR}>
+          -{costPrice}$</div>) : <div className={styles.cardDescPriceD}>
+            +{costPrice}$</div>}
       </div>
     </div>
   );
