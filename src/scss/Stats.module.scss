@@ -1,0 +1,23 @@
+.statBlock {
+    width: 70%;
+    height: 200px;
+
+    border: 1px solid antiquewhite;
+    border-radius: 12px;
+
+    background-color: bisque;
+
+    font-size: 4rem;
+
+    .statR {
+        color: red;
+    }
+
+    .statD {
+        color: green;
+    }
+
+    .statO {
+        color: blueviolet;
+    }
+}

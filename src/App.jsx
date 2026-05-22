@@ -2,6 +2,7 @@ import CostItem from "./components/costItem";
 import ItemAdder from "./components/itemAdder";
 import styles from "/src/scss/App.module.scss";
 import ChangeType from "/src/components/ChangeType";
+import Stats from "/src/components/Stats"
 import { useState } from "react";
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
       id: new Date().getTime(),
       costDate: new Date(data.date),
       costDesc: data.desc,
-      costPrice: data.price,
+      costPrice: Number(data.price),
       type: data.type,
     };
 
@@ -60,6 +61,7 @@ const App = () => {
         ))
       }
       </div>
+      <Stats costs={costs}></Stats>
     </div>
   );
 };
