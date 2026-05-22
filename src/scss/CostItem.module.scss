@@ -1,8 +1,9 @@
 .cardBlock {
   width: 70%;
+  height: 80px;
 
   max-height: 80%;
-  min-height: 30%;
+  min-height: 80px;
 
   padding: 10px 20px;
 
@@ -20,7 +21,7 @@
 
   .cardDate {
     width: 15%;
-    height: 70%;
+    height: 100%;
   
     border: 1px solid black;
     border-radius: 12px;
